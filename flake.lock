@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1789006805,
+        "narHash": "sha256-xB8mKMOx1IA9vTDNLmJZ6n4wCMq/cuWBBOzGCRnqxrU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "8ce4ef6cb6f871616146b9fe26d2a5ae594e94fe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "tatr-src": "tatr-src"
+      }
+    },
+    "tatr-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1789060706,
+        "narHash": "sha256-lVuaG8bvfJS1pZs+Htnx1AaloHt9L5/p8IgRL8NGLUA=",
+        "owner": "tsoding",
+        "repo": "tatr",
+        "rev": "9492ebd0abbad77e799667f68010dc0348c0ffc5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "tsoding",
+        "repo": "tatr",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
